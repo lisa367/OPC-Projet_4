@@ -52,3 +52,4 @@ Lancez le programme en exécutant le fichier run.py : `python3 Echecs/run.py`
 ## <b>Etape 4</b>
 
 Si vous souhaitez générer un rapport flake8, déplacez-vous dans le dossier Echec depuis le terminal, puis utilisez la commande suivante : `flake8 --format=html --htmldir=flake-report`
+
