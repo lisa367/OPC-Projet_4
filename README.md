@@ -19,7 +19,7 @@ Initialisez un répertoire git avec à la commande `git init`
 
 
 Puis clonez le répertoire distant : 
-`git clone https://github.com/lisa367/Openclassrooms-Projets_python/tree/master/Projet%204_bis`
+`git clone https://github.com/lisa367/OPC-Projet_4.git`
 
 Votre répertoire local devrait désormais avoir la structure suivante : 
 <pre>Répertoire_local/
