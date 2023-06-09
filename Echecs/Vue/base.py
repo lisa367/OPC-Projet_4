@@ -55,8 +55,16 @@ class BaseView2:
         menu = menus[self.menu_choisi]
 
         print("Choisissez une des options suivantes : ", menu, "\n")
-        reponse = input("Entrez le chiffre de l'option choisie : ")
+        reponse_raw = input("Entrez le chiffre de l'option choisie : ")
         print("*" * 15)
+        reponse = reponse_raw.strip()
+        while not reponse.isdigit():
+            print("Entrée non valide.")
+            print("*" * 15)
+            print("Choisissez une des options suivantes : ", menu, "\n")
+            reponse_raw = input("Entrez le chiffre de l'option choisie : ").strip()
+            print("*" * 15)
+            reponse = reponse_raw.strip()
         option_choisie = self.options.get(int(reponse), 0)
 
         return option_choisie
