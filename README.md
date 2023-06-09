@@ -18,17 +18,20 @@ Votre répertoire local devrait désormais avoir la structure suivante :
                 | Databases/
                 | Echecs/
                         | Modele/
+                                |__init__.py
                                 | base.py
                                 | modele.py
                         | Vue/
+                                |__init__.py
                                 | base.py
                                 | vue.py               
                         | Controleur/
+                                |__init__.py
                                 | base.py
                                 | controleur.py
                         | run.py
-                        | README.md
-                        | requirements.txt
+                | README.md
+                | requirements.txt
 </pre>
 ---
 
