@@ -9,7 +9,7 @@ Créez votre répertoire local et initialisez un répertoire git avec à la comm
 Puis clonez le répertoire distant : 
 `git clone https://github.com/lisa367/OPC-Projet_4.git`
 
-Déplacez-vous dans le répertoire OPC-Projet_4 et créer un sous-dossier nommé '_Databases_'.   
+Déplacez-vous dans le répertoire OPC-Projet_4 et créer un sous-dossier nommé '_Databases_' s'il n'existe pas déjà.   
 C'est dans ce répertoire que seront créées les bases de données au format JSON.  
 
 Votre répertoire local devrait désormais avoir la structure suivante : 
