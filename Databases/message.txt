@@ -1,0 +1,1 @@
+This folder will contain your JSON databases once you've run the Echecs program.
